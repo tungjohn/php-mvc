@@ -1,2 +1,2 @@
 # php-mvc
-Base MVC model
+Base PHP MVC model
