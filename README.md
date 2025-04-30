@@ -94,3 +94,34 @@ Dự án này là một cấu trúc cơ bản của PHP MVC (Model-View-Controll
 1. Clone repository về máy.
 3. Cấu hình máy chủ web của bạn để trỏ đến thư mục `public`.
 4. Bắt đầu xây dựng ứng dụng của bạn bằng cách thêm các controller, model, và view.
+
+## Command line
+- **Controller**:
+-- Make:
+```bash
+php artisan make:controller NameController
+```
+-- Delete:
+```bash
+php artisan delete:controller NameController
+```
+
+- **Model**:
+-- Make:
+```bash
+php artisan make:model NameModel
+```
+-- Delete:
+```bash
+php artisan delete:model NameModel
+```
+
+- **Middleware**:
+-- Make:
+```bash
+php artisan make:middleware NameMiddleware
+```
+-- Delete:
+```bash
+php artisan delete:middleware NameMiddleware
+```
