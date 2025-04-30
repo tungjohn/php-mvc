@@ -97,6 +97,7 @@ Dự án này là một cấu trúc cơ bản của PHP MVC (Model-View-Controll
 
 ## Command line
 - **Controller**:
+
 -- Make:
 ```bash
 php artisan make:controller NameController
@@ -107,6 +108,7 @@ php artisan delete:controller NameController
 ```
 
 - **Model**:
+
 -- Make:
 ```bash
 php artisan make:model NameModel
@@ -117,6 +119,7 @@ php artisan delete:model NameModel
 ```
 
 - **Middleware**:
+
 -- Make:
 ```bash
 php artisan make:middleware NameMiddleware
