@@ -46,11 +46,12 @@ class Controller {
             $template = new Template();
             $template->run($contentView, $data);
         }
+    }
 
-        
-
-        
-
-        
+    public function flashMessage($action, $status, $icon, $message) {
+        Session::flash('action', $action);
+        Session::flash('status', $status);
+        Session::flash('icon', $icon);
+        Session::flash('message', $message);
     }
 }
